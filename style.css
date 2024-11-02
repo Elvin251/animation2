@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(./WhatsApp\ Görsel\ 2024-11-02\ saat\ 17.10.53_e41cc944.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: brawlstars 1.5s ease 0s 1 normal forwards;
+}
+@keyframes brawlstars {
+	0% {
+		background-position: center top;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: center top;
+		background-size: 150%;
+	}
+}
