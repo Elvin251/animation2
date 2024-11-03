@@ -73,18 +73,24 @@ animation: header 1.5s ease 1s 2 normal forwards;
 .container{
 
     width: 60vw;
-    height: 60vh;
-   display: flex;
-  background: red;
+    height: 82vh;
+    display: grid;
+padding-top: 10px;
+grid-template-columns:250px 250px 250px  ;
+grid-template-rows: 250px 250px;
+gap: 40px;
+padding-left: 30px;
+  background: blue;
     margin: 50px auto;
     justify-content: space-around;
     animation: myAnim 2s ease 0s 1 normal forwards;
 }  
  .item{
- 
-    width: 25%;
-    height: 25%;
-    background-color:lemonchiffon;
+ text-align: center;
+
+    width: 200px;
+    height: fit-content ;
+    
  }
  @keyframes myAnim {
 	0% {
