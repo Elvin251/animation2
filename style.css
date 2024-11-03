@@ -11,12 +11,94 @@ body{
 }
 @keyframes brawlstars {
 	0% {
-		background-position: center top;
-		background-size: 100%;
+		background-position: 50% 100%;
 	}
 
 	100% {
-		background-position: center top;
-		background-size: 150%;
+		background-position: 50% 0%;
 	}
 }
+h1{
+    background-color: Ergba(220, 164, 142, 0.658);
+text-align: center;
+padding: 10px;
+animation: header 1.5s ease 1s 2 normal forwards;
+}
+@keyframes header {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(-48px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(-26px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(-13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(-6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+.container{
+
+    width: 60vw;
+    height: 60vh;
+   display: flex;
+  background: red;
+    margin: 50px auto;
+    justify-content: space-around;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}  
+ .item{
+ 
+    width: 25%;
+    height: 25%;
+    background-color:lemonchiffon;
+ }
+ @keyframes myAnim {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+		transform: scale(1) translateY(0);
+	}
+
+	100% {
+		box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+		transform: scale(1.1) translateY(-12px);
+	}
+}
+    
+
+    
+    
+    
